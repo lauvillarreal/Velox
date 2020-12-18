@@ -1,19 +1,10 @@
-package com.velox;
-
+package com.velox.utils;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 public class Hash {
 
-//	public static void main(String[] args) throws Exception {
-//
-//		String data = "";
-//		String algorithm = "MD5";
-//		System.out.println(generateHash(data, algorithm));
-//
-//	}
-	
 	public static String generateHash(String data, String algorithm) throws NoSuchAlgorithmException {
 		//Message digests are secure one-way hash functions that take arbitrary-sized data and output a 
 		//fixed-length hash value.
